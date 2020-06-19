@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_home_black_24dp"
+            android:title="Home" />
+        <item
+            android:id="@+id/nav_gallery"
+            android:icon="@drawable/ic_grain_black_24dp"
+            android:title="Seeds" />
+        <item
+            android:id="@+id/nav_slideshow"
+            android:icon="@drawable/ic_local_florist_black_24dp"
+            android:title="Flowers" />
+
+        <item
+            android:id="@+id/edibles"
+            android:icon="@drawable/ic_edibles"
+            android:title="Edibles" />
+        <item
+            android:id="@+id/cbd"
+            android:icon="@drawable/ic_accessibility_black_24dp"
+            android:title="CBD Products" />
+        <item
+            android:id="@+id/vape"
+            android:icon="@drawable/ic_opacity_black_24dp"
+            android:title="Vaporium" />
+        <item
+            android:id="@+id/accessories"
+            android:icon="@drawable/ic_apps_black_24dp"
+            android:title="Accessories" />
+        <item
+            android:id="@+id/about"
+            android:icon="@drawable/ic_assignment_ind_black_24dp"
+            android:title="About Us" />
+    </group>
+    <item android:title="PLACE YOUR ORDER HERE">
+      <menu>
+          <item android:id="@+id/order"
+              android:icon="@drawable/ic_credit_card_black_24dp"
+              android:title="Order Now"/>
+      </menu>
+
+    </item>
+    <item android:title="NEED TO CONTACT US? ">
+        <menu>
+            <item android:id="@+id/contact"
+                android:icon="@drawable/ic_contact_phone_black_24dp"
+                android:title="Contact Info"/>
+        </menu>
+
+    </item>
+</menu>

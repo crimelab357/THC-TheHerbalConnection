@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:drawable="@drawable/bkimj"
+        android:duration="5500" />
+    <item
+        android:drawable="@drawable/bgtwo"
+        android:duration="5500" />
+    <item
+        android:drawable="@drawable/bkthree"
+        android:duration="5500" />
+    <item
+        android:drawable="@drawable/bkfour"
+        android:duration="5500" />
+    <item
+        android:drawable="@drawable/bgfive"
+        android:duration="5500" />
+</animation-list>

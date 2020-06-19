@@ -1,0 +1,2 @@
+rootProject.name='OneApp'
+include ':app'
